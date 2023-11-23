@@ -59,30 +59,30 @@
     <UnityVersion>2021.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/USER/.vscode/extensions/visualstudiotoolsforunity.vstuc-0.9.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Users/USER/.vscode/extensions/visualstudiotoolsforunity.vstuc-0.9.3/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/engine/inputConstants.cs" />
-    <Compile Include="Assets/Scripts/engine/LateExe.cs" />
-    <Compile Include="Assets/Scripts/engine/inputHandler.cs" />
-    <Compile Include="Assets/Assets/scripts/vehicleList.cs" />
-    <Compile Include="Assets/Assets/scripts/audio.cs" />
-    <Compile Include="Assets/Assets/scripts/awakeManager.cs" />
     <Compile Include="Assets/Assets/map/AllSkyFree/AllSkyFree_Menu.cs" />
-    <Compile Include="Assets/Assets/scripts/controller.cs" />
-    <Compile Include="Assets/Assets/scripts/AI/trackWaypoints.cs" />
-    <Compile Include="Assets/Assets/scripts/carEffects.cs" />
-    <Compile Include="Assets/Assets/scripts/finishTrigger.cs" />
     <Compile Include="Assets/Assets/scripts/GameManager.cs" />
-    <Compile Include="Assets/Assets/scripts/GraphOverlay.cs" />
+    <Compile Include="Assets/Assets/scripts/controller.cs" />
     <Compile Include="Assets/Assets/scripts/inputManager.cs" />
-    <Compile Include="Assets/Assets/scripts/AI/vehicle.cs" />
-    <Compile Include="Assets/Assets/scripts/CarUpgrades.cs" />
-    <Compile Include="Assets/Assets/scripts/AI/AIcontroller.cs" />
     <Compile Include="Assets/Assets/scripts/cameraController.cs" />
-    <Compile Include="Assets/Assets/scripts/carModifier.cs" />
     <Compile Include="Assets/Assets/scripts/WheelDrive.cs" />
+    <Compile Include="Assets/Assets/scripts/audio.cs" />
+    <Compile Include="Assets/Scripts/engine/LateExe.cs" />
+    <Compile Include="Assets/Assets/scripts/carEffects.cs" />
     <Compile Include="Assets/Scripts/engine/Controller.cs" />
+    <Compile Include="Assets/Assets/scripts/GraphOverlay.cs" />
+    <Compile Include="Assets/Assets/scripts/vehicleList.cs" />
+    <Compile Include="Assets/Assets/scripts/AI/AIcontroller.cs" />
+    <Compile Include="Assets/Assets/scripts/carModifier.cs" />
+    <Compile Include="Assets/Assets/scripts/AI/trackWaypoints.cs" />
+    <Compile Include="Assets/Assets/scripts/awakeManager.cs" />
+    <Compile Include="Assets/Assets/scripts/CarUpgrades.cs" />
+    <Compile Include="Assets/Scripts/engine/inputHandler.cs" />
+    <Compile Include="Assets/Assets/scripts/finishTrigger.cs" />
+    <Compile Include="Assets/Assets/scripts/AI/vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Assets/map/AllSkyFree/AllSkyFree_Readme.txt" />
